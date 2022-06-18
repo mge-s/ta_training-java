@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.epam.rd.autotasks.max.MaxMethodTests" time="0.078" tests="7" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Kristina\Documents\ta_training-java\max\target\test-classes;C:\Users\Kristina\Documents\ta_training-java\max\target\classes;C:\Users\Kristina\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Kristina\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Kristina\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Kristina\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Kristina\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16\bin"/>
+    <property name="sun.java.command" value="C:\Users\Kristina\AppData\Local\Temp\surefire5729591499688183001\surefirebooter16225690698637581528.jar C:\Users\Kristina\AppData\Local\Temp\surefire5729591499688183001 2022-05-13T19-00-06_999-jvmRun1 surefire8776727912401944764tmp surefire_016974899866653213197tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Kristina\Documents\ta_training-java\max\target\test-classes;C:\Users\Kristina\Documents\ta_training-java\max\target\classes;C:\Users\Kristina\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Kristina\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Kristina\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Kristina\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Kristina\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Kristina"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-03-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Kristina\Documents\ta_training-java\max"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Kristina\AppData\Local\Temp\surefire5729591499688183001\surefirebooter16225690698637581528.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16+36-2231"/>
+    <property name="user.name" value="Kristina"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Kristina\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Kristina\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.1"/>
+    <property name="java.version" value="16"/>
+    <property name="user.dir" value="C:\Users\Kristina\Documents\ta_training-java\max"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-16\bin;C:\apache-maven-3.8.5\bin;C:\Users\Kristina\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16+36-2231"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="testReturnMaxForNegativeValues" classname="com.epam.rd.autotasks.max.MaxMethodTests" time="0.047">
+    <failure message="expected: &lt;-2&gt; but was: &lt;4&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <-2> but was: <4>
+	at com.epam.rd.autotasks.max.MaxMethodTests.testReturnMaxForNegativeValues(MaxMethodTests.java:25)
+]]></failure>
+    <system-out><![CDATA[
+ +-------------------------------------------------------------------------------+
+ | WARNING:                                                                      |
+ | The junit-platform-surefire-provider has been deprecated and is scheduled to  |
+ | be removed in JUnit Platform 1.4. Please use the built-in support in Maven    |
+ | Surefire >= 2.22.0 instead.                                                   |
+ | » https://junit.org/junit5/docs/current/user-guide/#running-tests-build-maven |
+ +-------------------------------------------------------------------------------+
+
+]]></system-out>
+  </testcase>
+  <testcase name="testReturnsValueNearToIntegerMaxIfArrayContainsIt" classname="com.epam.rd.autotasks.max.MaxMethodTests" time="0">
+    <failure message="expected: &lt;2147483620&gt; but was: &lt;4&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2147483620> but was: <4>
+	at com.epam.rd.autotasks.max.MaxMethodTests.testReturnsValueNearToIntegerMaxIfArrayContainsIt(MaxMethodTests.java:43)
+]]></failure>
+  </testcase>
+  <testcase name="testReturnMaxValueForSampleArray2" classname="com.epam.rd.autotasks.max.MaxMethodTests" time="0">
+    <failure message="expected: &lt;-61&gt; but was: &lt;4&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <-61> but was: <4>
+	at com.epam.rd.autotasks.max.MaxMethodTests.testReturnMaxValueForSampleArray2(MaxMethodTests.java:57)
+]]></failure>
+  </testcase>
+  <testcase name="testReturnMaxValueForSampleArray3" classname="com.epam.rd.autotasks.max.MaxMethodTests" time="0">
+    <failure message="expected: &lt;890&gt; but was: &lt;4&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <890> but was: <4>
+	at com.epam.rd.autotasks.max.MaxMethodTests.testReturnMaxValueForSampleArray3(MaxMethodTests.java:64)
+]]></failure>
+  </testcase>
+  <testcase name="testReturnMaxValueForSampleArray" classname="com.epam.rd.autotasks.max.MaxMethodTests" time="0.015">
+    <failure message="expected: &lt;978&gt; but was: &lt;4&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <978> but was: <4>
+	at com.epam.rd.autotasks.max.MaxMethodTests.testReturnMaxValueForSampleArray(MaxMethodTests.java:50)
+]]></failure>
+  </testcase>
+  <testcase name="testReturnIntegerMaxIfArrayContainsIt" classname="com.epam.rd.autotasks.max.MaxMethodTests" time="0">
+    <failure message="expected: &lt;2147483647&gt; but was: &lt;4&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2147483647> but was: <4>
+	at com.epam.rd.autotasks.max.MaxMethodTests.testReturnIntegerMaxIfArrayContainsIt(MaxMethodTests.java:33)
+]]></failure>
+  </testcase>
+  <testcase name="testReturnArraysSingleValue" classname="com.epam.rd.autotasks.max.MaxMethodTests" time="0"/>
+</testsuite>
